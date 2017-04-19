@@ -1,0 +1,29 @@
+{
+  "name": "bugzilla-jsonrpc",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chalettu/bugzilla-jsonrpc.git"
+  },
+  "author": "Chris Hale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chalettu/bugzilla-jsonrpc/issues"
+  },
+  "homepage": "https://github.com/chalettu/bugzilla-jsonrpc#readme",
+  "dependencies":{
+    "q": "^1.4.1",
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "q": "^1.4.1",
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1"
+  }
+}
