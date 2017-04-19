@@ -38,14 +38,12 @@ module.exports = function () {
         });
         return deferred.promise;
     }
-    this.get_comments = function (bug_id){
+    this.get_comments = function (bug_id) {
 
         var deferred = Q.defer();
         var params = [{ "ids": [bug_id] }];
         var options = this.build_get_request(params, "Bug.comments");
-        //console.log(JSON.stringify(options));
         rp(options).then(function (data) {
-           // console.log("request was good");
             deferred.resolve(data);
         });
         return deferred.promise;
